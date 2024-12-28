@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup python 2_fusion.py --mode render --in_dir /ssd_data/shizhen/Aidite_Crown_Dataset_scale_second/tooth_crown --depth_dir /ssd_data/shizhen/Aidite_Crown_Dataset_scale_second/tooth_crown_depth --out_dir /ssd_data/shizhen/Aidite_Crown_Dataset_scale_second/tooth_crown_watertight > render_output.log 2>&1 &
